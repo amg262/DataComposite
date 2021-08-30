@@ -6,7 +6,8 @@ namespace DataComposite
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DateTime today = DateTime.Now;
+            Console.Write("1. {0:MMMM dd, yyyy}", today);
         }
     }
 }
